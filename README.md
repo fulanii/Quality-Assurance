@@ -161,7 +161,6 @@ share my notes with others and demonstrate my knowledge to potential employers.
 > Through my research, I identified the diverse technologies utilized by Quality Assurance experts in software testing.
 
 1. Programming languages
-    - 
 
 2. Test Automation Frameworks
 
