@@ -21,9 +21,9 @@ share my notes with others and demonstrate my knowledge to potential employers.
         - [Agile | software development](#agile--software-development)
         - [Scrum | The Agile - Scrum Framework](#scrum--the-agile---scrum-framework)
 
-3. Test Processes 
+3. [Test Processes](#test-processes) 
 
-4. Testing Types
+4. [Testing Types](#testing-types)
 
 ## Technologies used for Quality Assurance and Software Testing
 
@@ -94,4 +94,6 @@ share my notes with others and demonstrate my knowledge to potential employers.
 4. Bug Reporting
 
 5. Testing Reports: Test Progress & Test Summary Report 
+
+---
 # Testing Types
