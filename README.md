@@ -37,6 +37,13 @@ share my notes with others and demonstrate my knowledge to potential employers.
 > Software testing is a way to assess the quality of a software, system or application and to detect any errors, bugs, defects, or other issues that may affect its functionality, performance, and overall quality. Software testing is a process which includes many different activities, It involves running the software, system or application with the intention of finding faults or defects, and comparing the actual results against the expected results to identify discrepancies.
 
 ## Dynamic vs Static  vs Validation vs Verification Testing 
+Dynamic testing: involves executing the software system or application and observing its behavior in real-time to identify any defects or issues that may affect its functionality. 
+
+Static testing: This type of testing involves analyzing the software system or application without executing it to identify issues that may affect its quality, such as code errors, syntax errors, or logical errors. 
+
+Validation testing: Ensures that the software system or application meets the specified requirements and functions as intended to satisfy the user's needs. 
+
+Verification testing: The software system or application adheres to the established standards and requirements throughout the development cycle. 
 
 ## Objectives of Testing
 1. Requirements Fulfillment
