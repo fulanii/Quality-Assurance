@@ -167,20 +167,106 @@ Verification testing: The software system or application adheres to the establis
 # Technologies used for Quality Assurance and Software Testing
 > Through my research, I identified the diverse technologies utilized by Quality Assurance experts in software testing.
 
-1. Programming languages
 
-2. Test Automation Frameworks
+<details>
+<summary>1. Programming languages</summary>
 
-3. API Testing
+- Python
+- SQL
+- JavaScript | Typescript
+- C#
+- Java
 
-4. Project | Test management Tools 
+</details>
 
-5. Continuous Integration and Deployment (CI/CD) tools
+<details>
+<summary>2. Test Automation Frameworks</summary>
 
-6. Performance Testing Tools tools
+- Selenium (automates web browsers)
+- playwright (End-to-End testing for modern web apps)
+- Cypress (Javascript testing framework)
+- Appium (open-source framework to automated app testing on Android & iOS)
+- Espresso (A native testing framework for android)
+- Android Studio Emulator (For manual & automation testing with apks)
+- TestComplete
+- Protractor
+- Cucumber
 
-7. Virtualization and Containerization Tools
+</details>
 
-8. Database Testing
+<details>
+<summary>3. API Testing</summary>
 
-9. Version Control
+- Postman (API platform for building, testing and using APIs)
+- RestAssured (Rest API’s testing in Java)
+- SoapUI (Testing tool for SOAP and REST testing)
+- Karate Framework (API test-automation, mocks, performance-testing and UI automation)
+
+</details>
+
+<details>
+<summary>4. Project | Test management Tools </summary>
+
+- Jira
+- Confluence
+- Trello
+- Asana
+- TestRail
+- Zephyr
+- PractiTest
+- TestPad
+
+</details>
+
+<details>
+<summary>5. Continuous Integration and Deployment (CI/CD) tools</summary>
+
+- Jenkins
+- GitLab CI/CD
+- CircleCI
+- Travis CI
+- Bamboo
+
+</details>
+
+<details>
+<summary>6. Performance Testing Tools tools</summary>
+
+- JMeter
+- LoadRunner
+- Gatling
+- BlazeMeter
+
+</details>
+
+<details>
+<summary>7. Virtualization and Containerization Tools</summary>
+
+- Docker
+- Kubernetes
+- Vagrant
+- VirtualBox
+
+</details>
+
+<details>
+<summary>8. Database Testing</summary>
+
+- PgAdmin
+- MySQLworkbench
+- DBeaver
+
+</details>
+
+<details>
+<summary>9. Version Control</summary>
+
+- Git
+
+</details>
+
+
+
+
+
+
