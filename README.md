@@ -3,8 +3,6 @@
 > I'm learning Automated Quality Assurance, I will be using this repo to document my journey, 
 share my notes with others and demonstrate my knowledge to potential employers.
 
-
-
 # Software Testing Concepts Table of Contents
 
 1. [What is Software Testing](#what-is-software-testing)
@@ -31,6 +29,10 @@ share my notes with others and demonstrate my knowledge to potential employers.
 4. [Testing Types](#testing-types)
 
 5. [Technologies used for Quality Assurance and Software Testing](#technologies-used-for-quality-assurance-and-software-testing)
+
+6. [How to write Test Scenario](#how-to-write-test-scenarios)
+
+7. [How to write Test Cases](#how-to-write-test-cases)
 
 --- 
 # What is Software Testing
@@ -266,7 +268,23 @@ Verification testing: The software system or application adheres to the establis
 </details>
 
 
+--- 
+# How to write Test Scenarios
+> A Test Scenario is defined as any functionality that can be tested. It is also called Test Condition or Test Possibility. As a tester, you should put yourself in the end user shoes and figure out the real-world scenarios and use cases of the application under test. e.g: Testing a registration page, what are the scenarios a user is expected to go trough, and test all those scenarios.
+
+> <span style="color: red;" >  Note: there’s a difference between Test Scenario and Test Cases. </span>
 
 
 
+1. Carefully study the requirement Document - 
+    1. Business Requirement Specification (BRS)
+    2. Software Requirement Specification (SRS)
+    3. Functional Requirement Specification (FRS)
+    4. System Under Test (SUT)
+2. Isolate every requirements and identify what possible user actions need to be tested for it. Figure out the technical issues associated with the requirements. Also, remember to analyze and frame possible system abuse scenarios by evaluating the software with the hacker’s eyes
+3. Enumerate test scenarios that cover every possible feature of the software. Ensure that these scenarios cover every user flow and business flow involved in the operation of the website or app.
+4. After listing the test scenarios, create a traceability Matrix to ensure that every requirement is mapped to a test scenario.
+5. Get the scenarios reviewed by a supervisor, and push them to be reviewed by other stakeholders involved in the project.
 
+--- 
+# How to write Test Cases
