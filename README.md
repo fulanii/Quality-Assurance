@@ -33,6 +33,20 @@ share my notes with others and demonstrate my knowledge to potential employers.
 6. [How to write Test Scenario](#how-to-write-test-scenarios)
 
 7. [How to write Test Cases](#how-to-write-test-cases)
+    - [Positive vs Negative Test Case](#positive-vs-negative-test-case)
+    - [Test Case title](#test-case-title)
+    - [Test Case precondition](#test-case-precondition)
+    - [The Test Case steps](#the-test-case-steps)
+    - [Test Data](#test-data)
+    - [High level Test Case & Low level Test Case](#high-level-test-case--low-level-test-case)
+    - [Expected Result](#expected-result)
+    - [Test Scenarios (Test Suites)](#test-scenarios-test-suites)
+    - [Test Environment](#test-environment)
+    - [Test Results](#test-results)
+    - [Test Status](#test-status)
+    - [Test Case Example](#test-case-example)
+
+
 
 --- 
 # What is Software Testing
@@ -288,3 +302,136 @@ Verification testing: The software system or application adheres to the establis
 
 --- 
 # How to write Test Cases
+> A Test Case is a set of steps that tests a specific functionality or aspect of an application to verify whether it works as intended or not. It has specific inputs, expected outputs, and actual outputs.
+
+<br>
+
+## Positive vs Negative Test Case
+> The 2 types of Test Cases: Positive vs Negative Test Case (Note: not related to Pass or Fail Test Case’s) 
+
+1. Positive Test Case: Is when you test something a normal scenario a user will do.
+2. Negative Test Case: testes the invalid scenarios, e.g user made a mistake or suspicious activities
+
+<br>
+<br>
+
+## Test Case title
+> The title of the test case is a brief summary that describes the purpose or objective of the test. It should be clear, concise, specific and not broad to the test being performed.
+
+- Example: Verify login with a valid username and password.
+
+
+<br>
+<br>
+
+
+## Test Case precondition
+> Preconditions are the conditions that must be met before the test case can be executed. Preconditions help ensure that the test is performed consistently and accurately, and that any dependencies or requirements are met. 
+
+- Example a precondition for a Login Functionality Test: User is already register with valid credentials.
+
+<br>
+<br>
+
+
+## The Test Case steps
+> Outline the specific actions that must be performed to execute the test. They should be written in a clear and concise manner, and should be easily reproducible. The steps should also include the expected results or outcomes of each action. 
+
+1. Example for a "Login Functionality Test":
+    - Open the login page
+    - Enter valid username 
+    - Enter valid password
+    - Click on the login button
+    - Verify that the user is logged in and redirected to the home page
+<br>
+<br>
+
+
+## Test Data
+> Test data refers to the input values and conditions that are used to validate and verify the behavior, functionality, and performance of software during testing. Test data is designed to represent a range of typical and atypical scenarios that the software may encounter in real-world usage. It may include valid and invalid data
+
+<br>
+<br>
+
+
+## High level Test Case &  Low level Test Case
+> High level Test Case: Is about checking functionality from outside(user perspective), the functionality of a software/product is define in a broader way without going into deep functionality. e.g:
+
+1. if we have to write high level test cases for login functionality we'll test that User should be able to login success full with valid credentials.
+2. High level test cases are usually written before the software/product is ready for delivery.
+3. Testing an E-commerce site: Enter valid login credentials, add  3 valid items to the card.
+4. High level test cases are usually most common types of test cases, and leaves so creativity in the hand of the testers.
+
+<br>
+
+> Low level Test Case: is about checking of all components related to a particular functionality, it define the functionality of a software/product in deep way, generally include details like Excepted Result , Test Data, etc...
+
+1. If u are testing a login then under low level test case, use provided credentials to  test user & password box and, login button, forget password option, UI & alignment etc..
+2. Testing an E-commerce site: Enter username: abcd, Enter password: 123456, click the login button, add these 3 specific items to the card, if the total is above $45 does user get free shipping options.
+3. Low level test case is more complex, takes more time, is typically written by developers, also require advance knowledge of the software/product and everything  is specific from preconditions, test data, expected results and postconditions and detailed description of actions (where applicable).
+
+<br>
+<br>
+
+
+## Expected Result
+> A test case expected result is the outcome that a software tester anticipates after executing a particular test case. It is a pre-defined set of conditions, values, or behaviors that the software application under test should exhibit when a specific test is performed. If the actual result differs from the expected one, the difference is documented and called a bug.
+
+- eg: User is login successfully and redirected to home page.
+- Actual Vs Expected Result: Actual can be defined as the result received after performing a test case. The actual result may or may not match the expected result. And, if the actual result is not matching with the expected result, then it is called a bug.
+
+<br>
+<br>
+
+
+## Test Scenarios (Test Suites)
+> A test suite is a collection of test cases or test scenarios. Test suites are organized into logical groups based on their purpose, and each test case focuses on testing a specific functionality, or application features being tested. 
+
+- Example: Testing login functionality: we can have multiple Test Suites: 1. for login using gmail, 1. for login using apple, 1 for login using facebook etc..
+
+<br>
+<br>
+
+
+## Test Environment
+> A test environment is a setup or configuration that is created to facilitate the execution of software tests. It is a replica of the production/user environment. A test environment may include hardware, software, network infrastructure, databases, and other necessary components that are required to execute software tests. The purpose of the test environment is to provide a controlled environment that mimics conditions that are as close to real-world conditions as possible.
+
+## Example:
+1. Hardware: e.g: mobile with 4g ram, intel i9 processor, device at least 7 inch screen etc..
+2. Software: e.g the operating system android 10, ios 11 or linux (specific distro) 4.xx
+3. Network:  e.g: wifi or mobile data, smooth network or drop connection while testing.
+4. example: 
+    - Windows 10 –Chrome –Wi-Fi
+    - Samsung Galaxy Note 10 -Android 10 –4G Network 
+    - iPhone 11 –iOS 13.3.1 –5G Network
+
+<br>
+<br>
+
+
+## Test Results
+> A Test result is the result you received after performing a test case. Note: Never fill the actual result filed until you execute the test case.
+
+<br>
+<br>
+
+## Test Status
+| New (Ready to test) | The test case is not executed |
+| --- | --- |
+| Pass | The test case is executed and the actual result is the same as the expected result. |
+| Fail | The test case is executed and the actual result is different from the expected result |
+| Blocked/Skipped | The test case can’t be executed  |
+
+<br>
+<br>
+
+## Test Case Example
+| Title | Testing login with valid credentials |
+| --- | --- |
+| Precondition  | User is already registered using valid credentials |
+| Test Steps | 1. Enter a valid username 2. Enter a valid password 3. Click on sign in |
+| Expected Result | User is logged in successfully & User is redirected to Home page |
+| Test Suite | Login |
+| Test Environment | Iphone 11 - iOS 10 – 4G Mobile Network  |
+| Actual Result | Same as expected  |
+| Status | Pass |
